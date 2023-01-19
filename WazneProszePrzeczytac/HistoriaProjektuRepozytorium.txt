@@ -1,0 +1,7 @@
+Odnośnie sekcji dotyczącej GitHub'a, repozytorium które zostało użytę było utworzone na moim koncie github.
+Odnośnie podpunktów:
+- Historia projektu w repozytorium.
+- Ocena opisu commitów
+
+Prosił bym się o odniesienie do screenshotów zamieszczonych w pliku.
+Link do oryginalnego repozytorium: https://github.com/KarolSielski02/KarolSielski02.github.io

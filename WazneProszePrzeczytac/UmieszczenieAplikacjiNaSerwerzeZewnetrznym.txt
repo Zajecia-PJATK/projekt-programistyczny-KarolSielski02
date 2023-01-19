@@ -1,0 +1,4 @@
+Strone można zobaczyć na github pages jak i hostingu.
+Linki:
+	Github Pages: https://karolsielski02.github.io.
+	Hosting: https://bespoke-raindrop-886478.netlify.app
