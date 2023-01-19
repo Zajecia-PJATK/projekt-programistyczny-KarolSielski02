@@ -1,0 +1,4 @@
+Na głównym repozytorium do którego ma Pan link w HistoriaProjektuRepozytorium.txt
+Znajduje się tam dodatkowo plik "node_modules", niestety nie mogłem wrzucić tego folderu z nienznanej mi przyczyny na 
+repozytorium "Zajecia-PJATK/projekt-programistyczny-KarolSielski02".
+Jeżeli kod nie będzie funkcjonować z jakiejś przyczyny bez tego folderu, proszę sklonować reozytorium do którego link jest podany w HistoriaProjektuRepozytorium.txt

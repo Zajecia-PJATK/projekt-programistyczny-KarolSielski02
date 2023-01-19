@@ -1,4 +1,4 @@
-Odnośnie sekcji dotyczącej GitHub'a, repozytorium które zostało użytę było utworzone na moim koncie github.
+Odnośnie sekcji dotyczącej GitHub'a, repozytorium które zostało użytę było utworzone na moim koncie github link do repozytorium: https://github.com/KarolSielski02/KarolSielski02.github.io.
 Odnośnie podpunktów:
 - Historia projektu w repozytorium.
 - Ocena opisu commitów
