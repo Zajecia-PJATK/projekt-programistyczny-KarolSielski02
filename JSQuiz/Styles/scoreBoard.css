@@ -1,0 +1,60 @@
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: #141414;
+    padding: 10px;
+    border: 2px dashed rgb(255, 255, 255);
+}
+
+.container-scoreBoard{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-auto-rows: 1fr;
+}
+
+.container-scoreBoard-gridContainer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-scoreBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+}
+.score-score-scoreBoard{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.menu-scoreBoard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-scoreBoard-grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-scoreBoard{
+    margin: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+}
+
+
+

@@ -1,0 +1,19 @@
+.mainMenu-container{
+    width: 80%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.btn-quiz-choice{
+    width: 30%;
+    height: 8%;
+    font-size: large;
+}
+
+

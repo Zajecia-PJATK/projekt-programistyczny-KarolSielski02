@@ -1,0 +1,309 @@
+{
+  "quizzes": [
+    {
+      "quizName": "Java",
+      "questions": [
+        {
+          "questionType": "ABCD-TF",
+          "question": "In Java, it is possible to have a class that both extends another class and implements an interface.",
+          "answers": [
+            {
+              "text": "False",
+              "correct": false
+            },
+            {
+              "text": "True",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "What is the purpose of the \"final\" keyword in Java?",
+          "answers": [
+            {
+              "text": "to make a variable immutable",
+              "correct": false
+            },
+            {
+              "text": "to make a class immutable",
+              "correct": false
+            },
+            {
+              "text": "to make a method immutable",
+              "correct": false
+            },
+            {
+              "text": "All of the above",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "Which of the following is not a Java loop statement?",
+          "answers": [
+            {
+              "text": "for",
+              "correct": false
+            },
+            {
+              "text": "while",
+              "correct": false
+            },
+            {
+              "text": "do-while",
+              "correct": false
+            },
+            {
+              "text": "repeat",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "What is the superclass of all classes in Java?",
+          "answers": [
+            {
+              "text": "Object",
+              "correct": true
+            },
+            {
+              "text": "Class",
+              "correct": false
+            },
+            {
+              "text": "Interface",
+              "correct": false
+            },
+            {
+              "text": "Abstract",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "What is the default value of a local variable in Java",
+          "answers": [
+            {
+              "text": "null",
+              "correct": null
+            },
+            {
+              "text": "0",
+              "correct": false
+            },
+            {
+              "text": "undefined",
+              "correct": false
+            },
+            {
+              "text": "not assigned",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quizName": "Programming ",
+      "questions": [
+        {
+          "questionType": "ABCD-TF",
+          "question": "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of \"objects\" which have properties and methods.",
+          "answers": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "A compiler is a program that turns source code into machine code that can be executed by a computer.",
+          "answers": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "Which of the following is not a property of a good function?",
+          "answers": [
+            {
+              "text": "Reusability",
+              "correct": false
+            },
+            {
+              "text": "Readability",
+              "correct": false
+            },
+            {
+              "text": "Complexity",
+              "correct": true
+            },
+            {
+              "text": "Understandability",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "Which of the following is not a design pattern in software engineering?",
+          "answers": [
+            {
+              "text": "Singleton",
+              "correct": false
+            },
+            {
+              "text": "Factory",
+              "correct": false
+            },
+            {
+              "text": "Abstract factory",
+              "correct": false
+            },
+            {
+              "text": "Spaceship",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "In what programming paradigm, data and methods are encapsulated together in a single unit called an object?",
+          "answers": [
+            {
+              "text": "Functional programming",
+              "correct": false
+            },
+            {
+              "text": "Object-oriented programming",
+              "correct": true
+            },
+            {
+              "text": "Procedural programming",
+              "correct": false
+            },
+            {
+              "text": "Event-driven programming",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "quizName": "Poland",
+      "questions": [
+        {
+          "questionType": "ABCD-TF",
+          "question": "Poland's official language is German..",
+          "answers": [
+            {
+              "text": "False",
+              "correct": true
+            },
+            {
+              "text": "True",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "Poland is a member of the European Union. ",
+          "answers": [
+            {
+              "text": "False",
+              "correct": false
+            },
+            {
+              "text": "True",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "What is the capital of Poland?",
+          "answers": [
+            {
+              "text": "Krakow",
+              "correct": false
+            },
+            {
+              "text": "Warsaw",
+              "correct": true
+            },
+            {
+              "text": "Gdansk",
+              "correct": false
+            },
+            {
+              "text": "Poznan",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "Which river runs through Poland?",
+          "answers": [
+            {
+              "text": "Danube",
+              "correct": false
+            },
+            {
+              "text": "Elbe",
+              "correct": false
+            },
+            {
+              "text": "Vistula",
+              "correct": true
+            },
+            {
+              "text": "Rhine",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "questionType": "ABCD-TF",
+          "question": "What is the currency of Poland?",
+          "answers": [
+            {
+              "text": "Euro",
+              "correct": false
+            },
+            {
+              "text": "Zloty",
+              "correct": true
+            },
+            {
+              "text": "Forint",
+              "correct": false
+            },
+            {
+              "text": "Krona",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

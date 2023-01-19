@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link href="Styles/buttons.css" rel="stylesheet">
+    <link href="Styles/navbar.css" rel="stylesheet">
+    <link href="Styles/body.css" rel="stylesheet">
+    <link href="Styles/scoreBoard.css" rel="stylesheet">
+    <link href="Styles/functional.css" rel="stylesheet">
+    <link href="Styles/questions.css" rel="stylesheet">
+    <link href="Styles/mainMenu.css" rel="stylesheet">
+    <link href="Styles/loginSubPage.css" rel="stylesheet">
+    <script defer src="script.js" type="module"></script>
+    <script defer src="Login.js" type="module"></script>
+    <script defer src="Menu.js" type="module"></script>
+</head>
+<body>
+<div class="navbar">
+    <div class="navDiv"></div>
+    <div class="navDiv"><p> << Q.U.I.Z THE GAME >> </p></div>
+    <div class="navDiv">
+        <a href="account.html" class="btn-nav btn">SIGN IN</a>
+    </div>
+</div>
+
+<div id="mainQuestionSectionContainer" class="container container-question-flex hide">
+    <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+
+            <select id="answer-select">
+                <option>Answer 1</option>
+                <option>Answer 2</option>
+                <option>Answer 3</option>
+                <option>Answer 4</option>
+            </select>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="goToScoreBoard-btn" class="start-btn btn hide">To score board</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+    <div>
+        <p id="timer"></p>
+        <p id="score"></p>
+    </div>
+</div>
+
+<div id="scoreBoardContainer" class="container container-scoreBoard hide">
+    <div class="container-scoreBoard-gridContainer">
+        <div class="score-scoreBoard">
+            <p>Your score was</p>
+            <p class="score-score-scoreBoard" id="score-scoreBoard"></p>
+        </div>
+        <div class="menu-scoreBoard">
+            <div class="menu-scoreBoard-grid-item">
+                <button id="startAgain-button" class="start-btn btn btn-scoreBoard">Restart</button>
+            </div>
+            <div class="menu-scoreBoard-grid-item">
+                <button id="Exit" class="start-btn btn btn-scoreBoard">Exit</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-scoreBoard-gridContainer">
+        <p>Score Board</p>
+        <ol id="highScoreBoard">
+        </ol>
+    </div>
+
+</div>
+
+<div id="mainMenu-container" class="mainMenu-container">
+    <h2> Choose Q.U.I.Z </h2>
+
+</div>
+
+<div class="mainMenu-container hide" id="nameInput">
+    <label class="mainMenu-container">
+        <h3>Your name</h3>
+        <input type="text" id="userName" class="input-txt">
+        <button class="btn" id="submitUserName">submit</button>
+        <p id="warning"></p>
+    </label>
+</div>
+</body>
+</html>

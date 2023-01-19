@@ -1,0 +1,36 @@
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 2px dashed white ;
+    background-color: #141414;
+    padding: 5px 10px;
+    outline: none
+}
+
+.btn-nav{
+    height: 50%;
+    width: 30%;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.start-btn, .next-btn {
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+

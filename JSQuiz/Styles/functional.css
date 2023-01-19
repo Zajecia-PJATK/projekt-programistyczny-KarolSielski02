@@ -1,0 +1,13 @@
+.hide{
+    display: none !important;
+}
+
+.correct{
+    color: rgb(107, 161, 107);
+    border-color: rgb(0,255,0);
+}
+
+.wrong{
+    color: rgb(153, 103, 103);
+    border-color: rgb(255, 0, 0);
+}

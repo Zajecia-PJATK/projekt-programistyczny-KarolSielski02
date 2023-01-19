@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MakeAQuiz</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles/functional.css">
+    <link rel="stylesheet" type="text/css" href="Styles/quizCreationTest.css">
+    <script src="quizCreationTest.js" async></script>
+    <title>Make yours</title>
+</head>
+<body>
+<div>
+    <div id="quizNameInput">
+        <h3>Quiz name</h3>
+        <input type="text" id="quizNameField" class="input-txt">
+        <button class="btn" id="submitQuizName">submit</button>
+        <p id="warningQuizName"></p>
+    </div>
+
+    <div class="menuOfQuestions hide" id="menuOfQuestions">
+        <div id="1">
+            <p>choose question type</p>
+            <select id="sel1">
+                <option></option>
+                <option>ABCD</option>
+                <option>TF</option>
+                <option>List</option>
+            </select>
+            <div id="1Div"></div>
+        </div>
+        <div id="2">
+            <p>choose question type</p>
+            <select id="sel2">
+                <option></option>
+                <option>ABCD</option>
+                <option>TF</option>
+                <option>List</option>
+            </select>
+            <div id="2Div"></div>
+        </div>
+        <div id="3">
+            <p>choose question type</p>
+            <select id="sel3">
+                <option></option>
+                <option>ABCD</option>
+                <option>TF</option>
+                <option>List</option>
+            </select>
+            <div id="3Div"></div>
+        </div>
+        <div id="4">
+            <p>choose question type</p>
+            <select id="sel4">
+                <option></option>
+                <option>ABCD</option>
+                <option>TF</option>
+                <option>List</option>
+            </select>
+            <div id="4Div"></div>
+        </div>
+        <div id="5">
+            <p>choose question type</p>
+            <select id="sel5">
+                <option></option>
+                <option>ABCD</option>
+                <option>TF</option>
+                <option>List</option>
+            </select>
+            <div id="5Div"></div>
+        </div>
+    </div>
+    <div>
+        <button class="btn" id="quizButtonSubmit">submit</button>
+    </div>
+    <div class="hide">
+        <div id="ABCD">
+            <p>Question</p>
+            <input type="text">
+            <p>Correct answer</p>
+            <input type="text">
+            <p>Wrong answer #1</p>
+            <input type="text">
+            <p>Wrong answer #2</p>
+            <input type="text">
+            <p>Wrong answer #3</p>
+            <input type="text">
+        </div>
+        <div id="TF">
+            <p>Question</p>
+            <input type="text">
+            <p>Correct answer</p>
+            <input type="text">
+            <p>Wrong answer 2</p>
+            <input type="text">
+        </div>
+        <div id="List">
+            <p>Question</p>
+            <input type="text">
+            <p>Correct option</p>
+            <input type="text">
+            <p>Wrong option #1</p>
+            <input type="text">
+            <p>Wrong option #2</p>
+            <input type="text">
+            <p>Wrong option #3</p>
+            <input type="text">
+        </div>
+    </div>
+</div>
+</body>
+</html>
